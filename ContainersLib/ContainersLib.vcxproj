@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -155,8 +155,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Containers.Tree.ixx" />
     <ClCompile Include="Containers.DynamicArray.ixx" />
+    <ClCompile Include="Containers.DynamicQueue.ixx" />
+    <ClCompile Include="Containers.HashTable.ixx" />
+    <ClCompile Include="Containers.IStack.ixx" />
     <ClCompile Include="Containers.ixx" />
+    <ClCompile Include="Containers.ForwardList.ixx" />
+    <ClCompile Include="Containers.MiddleOutList.ixx" />
+    <ClCompile Include="Containers.Queue.ixx" />
+    <ClCompile Include="Containers.IStackDyn.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
