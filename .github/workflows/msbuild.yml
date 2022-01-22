@@ -2,7 +2,7 @@ name: MSBuild
 
 on:
   pull_request:
-    branches: [master, student/**/*]
+    branches: [master, main, student/**/*]
     
 env:
   # Path to the solution file relative to the root of the project.
